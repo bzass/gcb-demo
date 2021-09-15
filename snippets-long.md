@@ -4,7 +4,7 @@ gcloud auth configure-docker
 
 cloud-build-local --dryrun=false .
 
-docker run --rm -d --name gcb-demo -p 80:80 gcr.io/bzass-demo/gcb-demo
+docker run --rm -d --name gcb-demo -p 80:80 gcr.io/bzass-demo-306413/gcb-demo
 
 curl localhost
 
